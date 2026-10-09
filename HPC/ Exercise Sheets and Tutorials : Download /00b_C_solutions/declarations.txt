@@ -1,0 +1,9 @@
+definition of foo to be of type x1:
+
+struct x1 foo;
+
+definition of bar to be of type x2:
+x2 bar;
+
+foo is a regular struct. 
+bar has been defined as a new data type. Internally, x2 works like a struct.

@@ -1,0 +1,2 @@
+The tools are invoked in the following order:
+preprocessor → compiler → linker

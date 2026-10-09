@@ -1,0 +1,214 @@
+Modul: INF-BAS7
+Semester: WS 2025
+Prüfer:  Prof. Dr. Bjoern Andres
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer:  Prof. Dr. Bjoern Andres
+very relaxed atmosphere, you get to talk about concepts and maybe write down + explain some formulas 
+
+- Is the learning of binary decision trees hard?
+- what is the separation and the separability problem?
+- How does the reduction with exact cover by 3 sets work
+
+- What is supervised structured learning? How does it differ to supervised learning?
+- How is the Gibbs distribution defined?
+- Is calculating the partition function hard?
+- Is there a way to make this easier? (here we talk a bit about message passing)
+- How does the loss function look like? How can we maximize the probability ? 
+
+
+Modul: INF-BAS2
+Semester: WS 2024
+Prüfer: Professor Andres
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Professor Andres
+My exam was an oral online exam. That was why I could not write down any formulars and had more to explain concepts.
+
+•	What is supervised learning in the case of linear functions?
+•	What are the two objectives we want to minimize in the supervised learning problem?
+•	How can you derive the l2-regularized logistic regression problem?
+•	What for do you use the sigmoid distribution and what for the normal distribution?
+•	What is the supervised learning problem of a compute graph?
+•	Why are we computing delta in forward/backward propagation? What is that used for?
+•	How is unsupervised learning different from supervised learning?
+•	What is the unsupervised learning in the case of clustering/partitioning? What are the constraints? What is the decision variable? (the decision of joining a and b/putting them into the same subset) 
+•	Is the inference problem of partitioning hard?
+•	How can we solve the inference problem of partitioning? Name the algorithms.
+•	How is the greedy moving algorithm using the technique of Kernighan and Lin different from the greedy moving algorithm?
+•	What is the gibbs distribution? Is it hard to compute?
+•	What is the partition function? Is that hard to compute?
+•	Name the algorithm which is used to compute the partition function? When can we use this algorithm?
+•	How can we solve the inference problem for supervised structured learning? (min-sum message passing, iterated conditional modes) 
+•	In what special case of a cyclic factor graph can we still use the min-sum message passing?
+
+
+Modul: INF-BAS2
+Semester: WS 2024
+Prüfer: Frau Prof. Gaggle
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Prof. Andres
+- What is the difference between Local Search and Simulated Annealing (SA)?  
+- What is the termination condition of SA?  
+- What are the syntax and semantics of ASP?  
+- What is a stable model?  
+- How is the Gelfond-Lifschitz reduct defined?  
+- What do you do with integrity constraints, and how do you transform them into normal rules?  
+- How is tree decomposition defined?  
+
+
+
+
+Modul: INF-BAS2
+Semester: WS 2025
+Prüfer: Prof. Björn Andres
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Prof. Björn Andres
+very relaxed atmosphere, got a piece of paper where i had to write down some formulas and sketch
+
+What is supervised learning for BDTs?
+What is a BDT? (had to sketch a BDT and explain in few words the structure, also had to write down the formula f_theta(x) for BDTs)
+What are differences between supervised and unsupervised learning?
+What are constraints for a feasible set? (trivial solutions like only 1s or 0s not accepted and constraints depending on the problem)
+How does inference work for Ordering? (had to write down the formula)
+What are the constraints for Ordering?
+How do we get the costs?
+What are algorithms to solve ordering and how can you calculate the cost change efficiently?
+What is the Gibbs distribution and how is it defined? (had to write down the formula)
+What is the Partition function? (had to write down the formula)
+Is the Partition function hard to calculate and if so why?
+How does the inference problem look like in structured learning? (had to write down the formula)
+Is the Inference problem hard?
+Which message passing algorithm for solving inference?
+Under which circumstances can you use the message passing algorithm?
+What are the special cases where you can still use the message passing algorithm even if the factor graph is cyclic?
+
+
+
+Modul: INF-BAS2
+Semester: WS 2023
+Prüfer: Bjoern Andres
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Bjoern Andres
+1) Supervised Learning Overview, Labled Data, Regularizer, Loss Function, Supervised Learning/ Inferece Problem
+2) SL of Linear functions: Definiton of linear funcitons and attribute space, l2-regression, hardness, gradient descent
+3) Clustering: General Overview, Definition Multicuts, Describing the problem, inference problem, algorithms
+4) Supervised Structured Learning: Overview, Differences to other learning types, Gibbs distribution
+5) Conditional graphical models: General description and learning problem, Z(x, theta)
+
+The examiner helps slightly if you're stuck or changes topics. You only talk about topics and no images are shown.
+
+
+
+Modul: INF-BAS2
+Semester: WS 2023
+Prüfer: Björn Andres
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Björn Andres
+I had to write down some formulas. Prof was nice and helped out when you were stuck on details.
+- What is the structure tensor and how is it calculated?
+- what is the calculation for one pixel?
+- What is a neural network 
+- what is a convolutional neuronal network
+- what is a fold?
+- draw a neural network
+- what is the smooth pixel classification problem (write the equation!)
+- how can you solve it (Local search, min st-cut)
+- what is the min st-cut problem? 
+- how do you convert an image to the st-cut network (draw that!)
+- how are the cost assigned to the edges in the network?
+
+
+
+Modul: INF-BAS2
+Semester: WS 2023
+Prüfer: Andres
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Andres
+What is the goal of structured learning of BDTs?
+Talk a bit about loss and the regularizer.
+Is learning of BDTs hard?
+What are the three steps in the reduction?
+What is different in supervised structured learning?
+What is the Gibbs Distribution?
+How can you calculate the sum in Z(x,theta) efficiently?
+What are the constraints in ordering?
+
+
+
+Modul: INF-BAS2
+Semester: WS 2016
+Prüfer: Dmitrij Schlesinger
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Dmitrij Schlesinger
+Es ging los mit Bayes Risiko und Loss Functions, hier ging er gesondert auf strukturierte Klassen ein. Leider weiß ich nicht mehr genau, was er da speziell wissen wollte, aber ich konnte eine Frage nicht beantworten, die mit der Lossfunktion bei strukturierten Klassen zusammenhing - also in der Art "Wie könnte eine Lossfunktion aussehen, wenn sie nicht nur der Abstand zwischen den beiden Punkten sein soll", ich weiß leider auch die Antwort nicht mehr. Wichtig war hier die markanten Formeln zu können, wie eben Bayesches Risiko, etc und auch die Lossfunktionen.
+
+Dann ging es weiter mit Perceptron Algorithm. Ich musste zuerst das Verfahren erklären, und dann den Beweis für die Konvergenz bringen können. Ich glaube, wenn man nicht unbedingt eine 1,0 haben will, reicht es aus, den Beweis umreißen zu können. Ich konnte ihn aufschreiben, weil ich schon vermutet hatte, dass er sowas in der Art sehen will, er meinte aber hinterher zu mir, dass er den Beweis in der Detailliertheit selber nicht mehr aufschreiben könne.
+
+Der letzte Abschnitt ging um Feed-Forward-Neural-Networks. Er wollte hier das Prinzip hören, nachdem die Netze aufgebaut sind, also die beiden Schritte Netz anwenden und dann Error-Back-Propagation. Dabei war ihm wichtig, dass man weiß dass die Ableitung nach dem Fehler zurück propagiert wird, und nicht der Fehler selber. Er wollte auch hier ein paar Formeln sehen.
+
+Mein genereller Eindruck war, dass die Übungen gar nicht abgefragt werden (die hatte ich auch nicht gelernt), man die relevanten Formeln können muss, aber jetzt nicht für jede Kleinigkeit die Herleitung. Solche Merkwürdigen Sachen, wie die Exponential Family Sektion habe ich nur sporadisch gelernt, ich glaube wichtiger sind ihm etablierte und bekannte Verfahren.
+
+
+
+Modul: INF-BAS7
+Semester: WS 2014
+Prüfer: Carsten Rother
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Dimitrij Schlesinger
+- SVM (Formeln und vor allem graphisch, was bedeutet welche Variable im Graphen, viel verstehen)
+- EM (auch mehr Verstehensfragen, wie die F und G Funktion aussehen, was da E und M ist)
+
+
+
+
+
+Modul: INF-BAS7
+Semester: WS 2014
+Prüfer: Carsten Rother
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Dimitrij Schlesinger
+Inhalt:
+- Baysian Risk Theorem. Sonderfälle wie MAP. Weitere Kostenfunktionen und deren Herleitung
+- PCA erklären und Nutzen
+- Kernel erklären. Wie Kernel kombinieren und was kommt raus.
+
+Eindruck:
+- Fragen relativ tief. Es geht im mehr ums Verständnis als um die Formeln selbst.
+- Hilft bei nicht weiterkommen etwas.
+
+
+
+Modul: INF-BAS7
+Semester: WS 2014
+Prüfer: Rother, Schlesinger
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Dr. Schlesinger
+- SVM (Formeln und vor allem graphisch, was bedeutet welche Variable im Graphen, viel verstehen)
+- EM (auch mehr Verstehensfragen, wie die F und G Funktion aussehen, was da E und M ist)
+
+
+
+Modul: INF-BAS7
+Semester: WS 2014
+Prüfer: Carsten Rother
+
+Lehrveranstaltung: Machine_Learning_1
+Prüfer: Dimitrij Schlesinger
+Inhalt:
+- Baysian Risk Theorem. Sonderfälle wie MAP. Weitere Kostenfunktionen und deren Herleitung
+- PCA erklären und Nutzen
+- Kernel erklären. Wie Kernel kombinieren und was kommt raus.
+
+Eindruck:
+- Fragen relativ tief. Es geht im mehr ums Verständnis als um die Formeln selbst.
+- Hilft bei nicht weiterkommen etwas.

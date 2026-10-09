@@ -1,0 +1,6 @@
+preprocessor (input): source code
+preprocessor (output): expanded source code
+compiler (input): expanded source code
+compiler (output): object code
+linker (input): object code
+linker (output): binary executable
